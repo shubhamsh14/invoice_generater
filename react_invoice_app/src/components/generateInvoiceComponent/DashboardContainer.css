@@ -1,0 +1,182 @@
+.dashboard-wrapper,
+.boxdashboard{
+  top: 0;
+  left: 0;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+.dashboard-wrapper{
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  width: 288px;
+  height: 59px;
+}
+.icon-dashboard{
+  position: absolute;
+  top: calc(50% - 14.5px);
+  left: 0px;
+  width: 64px;
+  height: 30px;
+}
+.icondashboardright {
+  position: absolute;
+  top: calc(50% - 14.5px);
+  left: calc(50% + 92px);
+  width: 34px;
+  height: 30px;
+}
+.dashboard-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 15px;
+  left: 55px;
+  font-size: 24px;
+  font-weight: 800;
+  font-family: Urbanist;
+  color: #000;
+  text-align: center;
+  display: inline-block;
+  width: 105px;
+  height: 29px;
+}
+.inventor-wrapper,
+.boxinventor{
+  top: 0;
+  left: 0;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+.inventor-wrapper {
+  position: absolute;
+  width: 288px;
+  height: 59px;
+}
+.iconcart {
+  position: absolute;
+  top: calc(50% - 14.5px);
+  left: 15px;
+  width: 34px;
+  height: 30px;
+}
+.iconinventorright {
+  position: absolute;
+  top: calc(50% - 14.5px);
+  left: calc(50% + 92px);
+  width: 34px;
+  height: 30px;
+}
+.inventory-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  font-size: 24px;
+  font-weight: 800;
+  font-family: Urbanist;
+  color: #000;
+  text-align: center;
+  display: inline-block;
+  width: 105px;
+  height: 29px;
+}
+
+.report-wrapper,
+.boxreport{
+  top: 0;
+  left: 0;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+.report-wrapper {
+  position: absolute;
+  top: 200px;
+  left: 30px;
+  width: 288px;
+  height: 59px;
+}
+.iconreport {
+  position: absolute;
+  top: calc(50% - 17px);
+  left: 15px;
+  width: 34px;
+  height: 30px;
+}
+.iconreportright {
+  position: absolute;
+  top: calc(50% - 14.5px);
+  left: calc(50% + 92px);
+  width: 34px;
+  height: 30px;
+}
+.report-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 15px;
+  left: 40px;
+  font-size: 24px;
+  font-weight: 800;
+  font-family: Urbanist;
+  color: #000;
+  text-align: center;
+  display: inline-block;
+  width: 105px;
+  height: 29px;
+}
+
+.logout-wrapper,
+.boxlogout{
+  top: 0px;
+  left: 0px;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+.logout-wrapper {
+  position: absolute;
+  top: 750px;
+  left: 24px;
+  width: 288px;
+  height: 59px;
+}
+.iconlogout {
+  position: absolute;
+  top: calc(50% - 14.5px);
+  left: calc(50% + 98px);
+  width: 34px;
+  height: 30px;
+}
+.logout-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 15px;
+  left: 46px;
+  font-size: 24px;
+  font-weight: 800;
+  font-family: Urbanist;
+  color: #000;
+  text-align: center;
+  display: inline-block;
+  width: 105px;
+  height: 29px;
+}
+
+.leftpane,
+.leftpane {
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+  background-color: #2148c0;
+  width: 348px;
+  height: 1024px;
+  overflow: hidden;
+}

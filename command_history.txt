@@ -1,0 +1,50 @@
+y
+npm start
+y
+npm install @react-pdf/renderer
+npm install react-datepicker
+npm start
+y
+cls
+npm start
+y
+npm ls react react-dom
+npm ls react
+cd ..
+npm ls react
+npm install react@latest react-dom@latest
+npm start
+cd invoice_react_app
+npm start
+y
+npm ls react
+npm update
+npm start
+y
+npm test
+npm start
+y
+cd ..
+npx create-react-app react_invoice_app
+cd react_invoice_app
+npm start
+y
+npm install react-datepicker
+npm install @react-pdf/renderer
+npm start
+y
+npm start
+y
+npm install --save-dev @babel/plugin-proposal-private-property-in-object
+npm start
+y
+npm install react-router-dom
+npm start
+y
+npm install bootstrap
+Module not found: Error: Can't resolve 'react-bootstrap
+npm install react-bootstrap
+npm install react-icons
+npm install html2canvas
+npm install jspdf
+doskey /history > command_history.txt

@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <h1>Edit a Student</h1>
+        <form action="{{ url_for('editStudent',student_id = student.id)}}" method="post">
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" class="form-control" name="subject" value="{{student.subject }}">
+                <button type="submit"> SAVE</button>
+                <a href='{{url_for('showStudents')}}'>
+                    <button>Cancel</button>
+                </a>
+            </div>
+         </form>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+<html>
+    <body>
+        <h1>Students</h1>
+        <a href="{{url_for('newStudent')}}">
+            <button>Add Student</button>
+        </a>
+        <ol>
+            {% for student in student %}
+            <li> {{student.fname}} {{student.lname}} / Subject: {{student.subject}}</li>
+            <a href="{{url_for('editStudent', student_id = student.id )}}">
+                Edit
+            </a>
+            <a href="{{url_for('deleteStudent', student_id = student.id )}}" style="margin-left: 10px;">
+                Delete
+            </a>
+            <br> <br>
+            {% endfor %}
+        </ol>
+    </body>
+</html>
